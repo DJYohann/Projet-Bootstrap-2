@@ -1,0 +1,113 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+section {
+  padding-top: 80px;
+}
+
+section h2, h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.white-divider {
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  margin: 20px auto;
+}
+
+/* NAVBAR */
+nav {
+  background-color: #006D80;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+nav li a {
+  font-size: 25px;
+}
+
+/* SEASONS */
+#seasons {
+  background-color: #fdc800;
+}
+
+#seasons .card {
+  background-color: #fdc800;
+}
+
+#seasons button {
+  color: #fff;
+  text-align: center;
+}
+
+#seasons .media img {
+  width: 250px;
+}
+
+/* CHARACTERS */
+#characters {
+  background-color: #006D80;
+}
+
+#characters-carousel {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#characters-carousel img {
+  width: 500px;
+}
+
+.carousel-caption {
+  background-color: #006D80;
+  opacity: 0.8;
+}
+
+/* NETWORKS */
+#networks {
+  background-color: #fdc800;
+  text-align: center;
+}
+
+#networks .col-sm {
+  padding: 50px;
+}
+
+#networks img {
+  filter: opacity(50%);
+  -webkit-filter : opacity(50%);
+}
+
+#networks img:hover {
+  filter: none;
+  -webkit-filter : none;
+}
+
+/* CONTACT */
+#contact {
+  background-color: #006D80;
+  padding-bottom: 20px;
+}
+
+#contact form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#contact form button {
+  background-color: #fdc800;
+}
+
+/* FOOTER */
+footer {
+  background-color: #fdc800;
+}
